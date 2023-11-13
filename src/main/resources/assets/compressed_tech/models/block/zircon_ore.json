@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "compressed:block/zircon_ore"
+    "all": "compressed_tech:block/zircon_ore"
   }
 }

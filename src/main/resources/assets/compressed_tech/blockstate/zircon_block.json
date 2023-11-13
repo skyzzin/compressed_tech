@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": {"model": "compressed_tech:block/zircon_block"}
+    "": { "model": "compressed_tech:block/zircon_block" }
   }
 }
