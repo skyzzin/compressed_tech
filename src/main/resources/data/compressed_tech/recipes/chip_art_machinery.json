@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "212",
+    "131",
+    "212"
+  ],
+  "key": {
+    "1": {
+      "item": "compressed_tech:chip_iron"
+    },
+    "2": {
+      "item": "compressed_tech:chip_copper"
+    },
+    "3": {
+      "item": "compressed_tech:compressed_iron_block"
+    }
+  },
+  "result": {
+    "item": "compressed_tech:chip_art_machinery"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "0": {
+      "item": "compressed_tech:compressed_iron_block"
+    }
+  },
+  "result": {
+    "item": "compressed_tech:reinforced_redstone_block"
+  }
+}

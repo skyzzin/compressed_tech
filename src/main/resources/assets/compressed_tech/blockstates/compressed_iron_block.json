@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "compressed_tech:block/compressed_iron_block" }
+  }
+}

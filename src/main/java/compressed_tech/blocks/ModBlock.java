@@ -1,7 +1,7 @@
 package compressed_tech.blocks;
 
 import compressed_tech.CompressedTech;
-import compressed_tech.creative_compressed_tech.CreativeTab;
+import compressed_tech.tabs.CreativeTab;
 import compressed_tech.items.Items;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,15 +20,17 @@ public class ModBlock {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CompressedTech.MOD_ID);
 
-    public static final RegistryObject<Block> ZIRCON_BLOCK = registerBlock("zircon_block",
+    public static final RegistryObject<Block> CHIP_ART_MACHINERY = registerBlock("chip_art_machinery",
             ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
             ), CreativeTab.COMPRESSED_TECH_TAB);
 
-    public static final RegistryObject<Block> ZIRCON_ORE = registerBlock("zircon_ore",
+    public static final RegistryObject<Block> COMPRESSED_IRON_BLOCK = registerBlock("compressed_iron_block",
             ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
             ), CreativeTab.COMPRESSED_TECH_TAB);
 
-
+    public static final RegistryObject<Block> REINFORCED_REDSTONE_BLOCK = registerBlock("reinforced_redstone_block",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
+            ), CreativeTab.COMPRESSED_TECH_TAB);
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

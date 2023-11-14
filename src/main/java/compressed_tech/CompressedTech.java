@@ -14,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 
+
 @Mod(CompressedTech.MOD_ID)
 public class CompressedTech{
     public static final String MOD_ID = "compressed_tech";

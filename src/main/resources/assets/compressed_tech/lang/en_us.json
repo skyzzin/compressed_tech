@@ -1,10 +1,13 @@
 {
-  "item.compressed_tech.zircon": "Zircon",
-  "item.compressed_tech.raw_zircon": "Raw Zircon",
-
-  "block.compressed_tech.zircon_block": "Block of Zircon",
-  "block.compressed_tech.zircon_ore": "Zircon Ore",
-  "block.compressed_tech.deepslate_zircon_ore": "Deepslate Zircon Ore",
-
+  "item.compressed_tech.chip_copper": "Chip Copper",
+  "item.compressed_tech.chip_iron": "Chip Iron",
+  "item.compressed_tech.chip_lapis": "Chip Lapis",
+  "item.compressed_tech.chip_emerald": "Chip Emerald",
+  "item.compressed_tech.chip_rockium": "Chip Rockium",
+  "item.compressed_tech.compressed_iron": "Compressed Iron",
+  "item.compressed_tech.reinforced_redstone": "Reinforced Redstone",
+  "block.compressed_tech.chip_art_machinery": "Chip Art Machinery",
+  "block.compressed_tech.compressed_iron_block": "Compressed Iron Block",
+  "block.compressed_tech.reinforced_redstone_block": "Reinforced Redstone Block",
   "itemGroup.compressed_tech": "Compressed Tech"
 }

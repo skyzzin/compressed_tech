@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chips",
+  "pattern": [
+    "212",
+    "131",
+    "212"
+  ],
+  "key": {
+    "1": {
+      "item": "compressed_tech:reinforced_redstone_block"
+    },
+    "2": {
+      "item": "compressed_tech:compressed_iron_block"
+    },
+    "3": {
+      "item": "compressed_tech:chip_iron"
+    }
+  },
+  "result": {
+    "item": "compressed_tech:chip_lapis"
+  }
+}

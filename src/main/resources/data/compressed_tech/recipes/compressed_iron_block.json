@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "kkk",
+    "kkk",
+    "kkk"
+  ],
+  "key": {
+    "k": {
+      "item": "compressed_tech:compressed_iron"
+    }
+  },
+  "result": {
+    "item": "compressed_tech:compressed_iron_block"
+
+  }
+}
