@@ -1,6 +1,7 @@
 package compressed_tech.items;
 
 import compressed_tech.CompressedTech;
+import compressed_tech.items.custom.CustomItem;
 import compressed_tech.tabs.CreativeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,6 +28,9 @@ public class Items {
             ()-> new Item(new Item.Properties().tab(CreativeTab.COMPRESSED_TECH_TAB)));
     public static final RegistryObject<Item> REINFORCED_REDSTONE = ITEMS.register("reinforced_redstone",
             ()-> new Item(new Item.Properties().tab(CreativeTab.COMPRESSED_TECH_TAB)));
+
+    public static final RegistryObject<Item> RANDOM_BALL = ITEMS.register("random_ball",
+            ()-> new CustomItem(new Item.Properties().tab(CreativeTab.COMPRESSED_TECH_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

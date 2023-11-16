@@ -1,6 +1,8 @@
 package compressed_tech.blocks;
 
 import compressed_tech.CompressedTech;
+import compressed_tech.blocks.custom.CustomBlock;
+import compressed_tech.blocks.custom.ZirconLampBlock;
 import compressed_tech.tabs.CreativeTab;
 import compressed_tech.items.Items;
 import net.minecraft.world.item.BlockItem;
@@ -31,6 +33,13 @@ public class ModBlock {
     public static final RegistryObject<Block> REINFORCED_REDSTONE_BLOCK = registerBlock("reinforced_redstone_block",
             ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
             ), CreativeTab.COMPRESSED_TECH_TAB);
+    public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
+            ()-> new CustomBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
+            ), CreativeTab.COMPRESSED_TECH_TAB);
+
+    public static final RegistryObject<Block> ZIRCON_LAMP = registerBlock("zircon_lamp",
+            ()-> new ZirconLampBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(ZirconLampBlock.LIT) ? 15 : 0)), CreativeTab.COMPRESSED_TECH_TAB);
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

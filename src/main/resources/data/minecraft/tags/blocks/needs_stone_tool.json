@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "compressed_tech:chip_art_machinery",
+    "compressed_tech:compressed_iron_block",
+    "compressed_tech:reinforced_redstone_block"
   ]
 }

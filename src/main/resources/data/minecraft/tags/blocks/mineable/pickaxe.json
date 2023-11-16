@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:zircon_ore",
-    "tutorialmod:zircon_block",
-    "tutorialmod:deepslate_zircon_ore"
+    "compressed_tech:chip_art_machinery",
+    "compressed_tech:compressed_iron_block",
+    "compressed_tech:reinforced_redstone_block"
   ]
 }

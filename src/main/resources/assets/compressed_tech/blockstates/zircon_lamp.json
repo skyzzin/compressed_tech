@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "compressed_tech:block/zircon_lamp_on" },
+    "lit=false": { "model": "compressed_tech:block/zircon_lamp_off" }
+  }
+}

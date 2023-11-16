@@ -6,8 +6,11 @@
   "item.compressed_tech.chip_rockium": "Chip Rockium",
   "item.compressed_tech.compressed_iron": "Compressed Iron",
   "item.compressed_tech.reinforced_redstone": "Reinforced Redstone",
+  "item.compressed_tech.random_ball": "Random Ball",
   "block.compressed_tech.chip_art_machinery": "Chip Art Machinery",
   "block.compressed_tech.compressed_iron_block": "Compressed Iron Block",
   "block.compressed_tech.reinforced_redstone_block": "Reinforced Redstone Block",
+  "block.compressed_tech.jumpy_block": "Jumpy Block",
+  "block.compressed_tech.zircon_lamp": "Zircon Lamp",
   "itemGroup.compressed_tech": "Compressed Tech"
 }
